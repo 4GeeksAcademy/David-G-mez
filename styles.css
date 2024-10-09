@@ -1,0 +1,62 @@
+header {
+    background-color: white;
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div {
+    box-sizing: border-box;
+}
+  
+p {
+    padding-bottom: 20px !important;
+}
+
+header h1 {
+ margin: 0;
+ padding: 10px;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+}
+
+.post {
+    margin-top: 10px;
+    background-color: white;
+   
+}
+
+.post img{
+    width: 100%;
+}
+
+.post h2, .post p{
+    padding: 10px;
+}
+
+.PhotoTitle {
+display: flex;
+}
+
+.container .PhotoTitle :first-child {
+    padding-left: 30px;
+    width: 80%;
+}
+
+.container .PhotoTitle :last-child {
+    padding-top: 35px;
+    width: 20%; 
+    text-align: right;
+    margin-right: 10px;
+    color: gray;
+   }
+
+
+
